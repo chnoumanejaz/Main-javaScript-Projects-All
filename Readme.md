@@ -16,9 +16,9 @@ https://bank-website-nouman.netlify.app/
 Clone the project
 
 ```bash
-  git clone https://github.com/chnoumanejaz/Recipe-App.git
+  git clone https://github.com/chnoumanejaz/Main-javaScript-Projects-All.git
 ```
-##Go to the project directory
+## Go to the project directory
 
 Start the server No Dependencies😉
 
