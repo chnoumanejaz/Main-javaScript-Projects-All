@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 
 import { fetchData, url } from './api.js';
@@ -488,3 +489,5 @@ function notification(msg) {
   }
 }
 notification('Now, You recieve critical weather Alerts. ')
+=======
+>>>>>>> df942f72149f35120e8ecf83b4a3213fb320d7a3

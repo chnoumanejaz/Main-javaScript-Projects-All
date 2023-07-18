@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 
 const api_key = 'ae5150cfd1c6f300e7de80439855dace';
@@ -32,3 +33,5 @@ export const url = {
     return `https://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5`;
 }
 };
+=======
+>>>>>>> df942f72149f35120e8ecf83b4a3213fb320d7a3
