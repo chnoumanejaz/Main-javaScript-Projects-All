@@ -25,7 +25,7 @@ export const monthNames = [
   'Dec',
 ];
 
-export const getData = function (dataUnix, timezone) {
+export const getDate = function (dataUnix, timezone) {
   const date = new Date((dataUnix + timezone) * 1000);
   const weekDayName = weekDayNames[date.getUTCDay()];
   const monthName = monthNames[date.getUTCMonth()];
@@ -39,7 +39,7 @@ export const getTime = function (timeUnix, timezone) {
   const minutes = date.getUTCMinutes();
   const period = hours >= 12 ? 'PM' : 'AM';
 
-  return `${hours % 12 || 12}:${minutes} ${period}`;
+  return `${(hours % 12)|| 12}:${minutes} ${period}`;
 };
 
 export const getHours = function (timeUnix, timezone) {

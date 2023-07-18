@@ -1,6 +1,9 @@
 
 # Live Url's of all projects that are in this Repo
 
+## Weather App
+https://weathernow-nouman.netlify.app/
+
 ## Workout on Map
 https://workout-app-nouman.netlify.app/
 

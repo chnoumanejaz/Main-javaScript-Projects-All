@@ -12,6 +12,7 @@ export const fetchData = function (URL, callback) {
   fetch(`${URL}&appid=${api_key}`)
     .then(res => res.json())
     .then(data => callback(data));
+    // .catch(err => {throw new Error('Network Error! Please check your internet Connection :(')});
 };
 
 export const url = {
