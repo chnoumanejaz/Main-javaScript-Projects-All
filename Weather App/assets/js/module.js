@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 
 export const weekDayNames = [
@@ -83,5 +82,3 @@ export const aqiText = {
       'Health warnings of emergency conditions. The entire population is more likely to be affected.',
   },
 };
-=======
->>>>>>> df942f72149f35120e8ecf83b4a3213fb320d7a3

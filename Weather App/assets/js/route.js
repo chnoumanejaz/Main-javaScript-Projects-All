@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 
 import { updateWeather, error404 } from './app.js';
@@ -44,5 +43,3 @@ window.addEventListener('load', function () {
     checkHash();
   }
 });
-=======
->>>>>>> df942f72149f35120e8ecf83b4a3213fb320d7a3
